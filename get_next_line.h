@@ -6,13 +6,13 @@
 /*   By: ylabussi <ylabussi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/18 13:38:45 by ylabussi          #+#    #+#             */
-/*   Updated: 2024/10/28 17:09:26 by ylabussi         ###   ########.fr       */
+/*   Updated: 2024/10/28 17:29:47 by ylabussi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
-# define BUFFER_SIZE 1024
+# define BUFFER_SIZE 10000000
 # include <stddef.h>
 
 char	*get_next_line(int fd);

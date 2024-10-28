@@ -32,7 +32,7 @@ norme:
 	norminette $(HEADER) $(SRC)
 
 
-test:
+test: norme
 	$(CC) $(FLAGS) $(TESTFLAGS) $(SRC) $(TESTFILE) -o $(TESTNAME)
 	./$(TESTNAME)
 
